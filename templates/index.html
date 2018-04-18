@@ -1,33 +1,56 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<!-- Social media icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<title>Daniel Fritsch</title>
 </head>
 	<body>
+		<!-- <nav class="navbar sticky-top navbar-light bg-light"> -->
+  		<!-- <a class="navbar-brand" href="#">Sticky top</a> -->
+		<!-- </nav> -->
+		<nav class="navbar fixed-top navbar-light bg-light">
+ 			<a class="navbar-brand" href="#linktotop">Daniel Fritsch &emsp;|</a>
+ 			<a href="#linktotop">Home</a>
+			<a href="#linktowork">Work Experience</a>
+			<a href="#linktoprojects">Projects</a>
+			<a href="#linktoeducation">Education</a>
+			<a href="#linktocontact">Contact</a>
+		</nav>
+
 		<p><a name="linktotop"></a></p>
 		<div>
-			<a href="{{ url_for('index') }}">Home</a>
-			<a href="{{ url_for('projects') }}">Projects</a>
-			<a href="{{ url_for('work') }}">Work Experience</a>
-			<a href="{{ url_for('education') }}">Education</a>
-			<a href="Daniel_Fritsch_Resume.pdf" target="_blank">Resume</a>
-			<a href="{{ url_for('contact') }}">Contact</a>
+<!-- 			<a href="{{ url_for('index') }}">Home</a>
+			<a href="#linktowork">Work Experience</a>
+			<a href="#linktoprojects">Projects</a>
+			<a href="#linktoeducation">Education</a>
+			<a href="#linktocontact">Contact</a> -->
 		</div>
 		<hr>
 
 		<div align="center">
+			<!-- INTRO -->
 			<br>
-			<h1><font size="12">Hi I'm Daniel!</font></h1>	
+			<h1>Hi I'm Daniel!</h1>	
 			<br>
 			<p>
 				<font size="4">
 				I am a first year student at the University of California, San Diego. I am pursuing a Bachelor's Degree in Computer Science, and a minor in Economics.<br><br>I have previously interned as a Software Engineer at Pyze in Summer 2016, and will be an instructor for iD Tech at Stanford University in Summer 2018.
 				</font>
 			</p>
+			<br>
 		
-			
-			<h1>Work Experience</h1>
-			<table border="1">
+			<!-- WORK EXPERIENCE -->
+			<h2><a name="linktowork"></a>Work Experience</h2>
+			<table border="6">
 				<thead>
 					<tr>
 						<th>Pyze Inc. Software Engineering Intern | Summer 2016</th>
@@ -64,20 +87,47 @@
 
 			<br><br>
 
-			<h1>Projects</h1>
+ 			<!-- PROJECTS -->
+			<h2><a name="linktoprojects"></a>Projects</h2>
+			<table border="6">
+				<thead>
+					<tr>
+						<th><strong>Project 1</strong></th>
+						<th><strong>Project 2</strong></th>
+						<th><strong>Project 3</strong></th>
+						<th><strong>Project 4</strong></th>
+					</tr>	
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							This is where I talk about my first project
+						</td>
+						<td>
+							This is where I talk about my second project
+						</td>
+						<td>
+							This is where I talk about my third project
+						</td>
+						<td>
+							This is where I talk about my fourth project
+						</td>
+					</tr>
+				</tbody>
+			</table>
 
 			<br><br>
 
-			<h1>Education</h1>
+			<h2><a name="linktoeducation"></a>Education</h2>
 				<div>
 					<em>University of California, San Diego <br>
 					B.S. Computer Science <br>
 					Graduation Date: June 2021</em>
 				</div>	
 				<br>
-				<table border="1">
+				<table border="6">
 					<thead>
-						<tr><th><strong>Courses</strong></th></tr>
+						<tr><th><strong><font size="5">Courses</font></strong></th></tr>
 					</thead>
 					<tbody>
 						<tr>
@@ -97,10 +147,15 @@
 
 			<br><br>
 
-			<h1>Contact</h1>
+			<h2><a name="linktocontact"></a>Contact</h2>
+			<a href="https://github.com/danielfritsch" class="fa fa-linkedin"></a>
+			<a href="https://www.linkedin.com/in/daniel-f-a8037084/" class="fa fa-github"></a>
 			<br>
 
 			<p><a href="#linktotop">Return to top</a></p>
 		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>
