@@ -11,29 +11,29 @@
 	<!-- Social media icon library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+
 	<title>Daniel Fritsch</title>
 </head>
 	<body>
 		<!-- <nav class="navbar sticky-top navbar-light bg-light"> -->
   		<!-- <a class="navbar-brand" href="#">Sticky top</a> -->
 		<!-- </nav> -->
-		<nav class="navbar fixed-top navbar-light bg-light">
+		<!-- <nav class="navbar fixed-top navbar-light bg-light"> -->
+		<nav class="navbar sticky-top navbar-light bg-light">
  			<a class="navbar-brand" href="#linktotop">Daniel Fritsch &emsp;|</a>
  			<a href="#linktotop">Home</a>
 			<a href="#linktowork">Work Experience</a>
 			<a href="#linktoprojects">Projects</a>
 			<a href="#linktoeducation">Education</a>
+			<a href="file:///Users/danielfritsch/Desktop/Daniel_Fritsch_Resume.pdf" target="_blank">Resume</a>
 			<a href="#linktocontact">Contact</a>
 		</nav>
 
 		<p><a name="linktotop"></a></p>
-		<div>
-<!-- 			<a href="{{ url_for('index') }}">Home</a>
-			<a href="#linktowork">Work Experience</a>
-			<a href="#linktoprojects">Projects</a>
-			<a href="#linktoeducation">Education</a>
-			<a href="#linktocontact">Contact</a> -->
-		</div>
+
 		<hr>
 
 		<div align="center">
@@ -50,46 +50,80 @@
 		
 			<!-- WORK EXPERIENCE -->
 			<h2><a name="linktowork"></a>Work Experience</h2>
-			<table border="6">
-				<thead>
-					<tr>
-						<th>Pyze Inc. Software Engineering Intern | Summer 2016</th>
-						<th>iD Tech Instructor | Summer 2018</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<!-- Pyze -->
-						<td>
-							<ul>
-								<li>
-									<strong>Pyze: </strong>Small startup that uses AI technologies to help automate growth for businesses at any stage in their development.
-								</li>
-								<br>
-								<li>
-									<strong>Automated Growth Team: </strong>Created a Python script that automatically gathers potential client/company emails and sends an introductory email about the services Pyze has to offer.
-								</li>
-								<br>
-								<li>
-									<strong>Marketing: </strong> Led some marketing operations for Pyze. Improved Twitter profile, connected with clients over email, and created/updated blog posts with new and relevant product info.
-								</li>
-							</ul>
-						</td>
-						<!-- iD Tech -->
-						<td>
-							<ul>
-								<li>I will be teaching multiple classes with topics varying from Coding Apps in Java and C++ to Artificial Intelligence and Machine Learning courses.</li>
-							</ul>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+
+			<div class="card-deck" id="card-deck-work">
+			  <div class="card" id="card-work">
+			    <img class="card-img-top" src="https://pyze.com/wp-content/uploads/2017/11/pyze-horizontal-color-RGB.png" alt="Card image cap">
+			    <div class="card-body">
+			      <h5 class="card-title">Software Engineering Intern</h5>
+			      <p class="card-text">
+			      	<strong>Pyze</strong> is a small startup that uses AI technologies to help automate growth for businesses at any stage in their development. I was part of the <strong>automated growth team</strong>, where I developed a Python script that automatically gathers potential client/company emails and sends an introductory email about the services Pyze has to offer. I also had a leading role in the <strong>marketing team</strong>, where I led some marketing operations such as improving the Twitter profile, connecting with clients over email, and created/updated blog posts with new and relevant product information.
+			      </p>
+			    </div>
+			    <div class="card-footer">
+			      <small class="text-muted">Jun 2016 - Aug 2016</small>
+			    </div>
+			  </div>
+			  <div class="card" id="card-work">
+			    <img class="card-img-top" src="https://momstart.com/wp-content/uploads/2018/03/iD-Tech-Company-Logo-Tagline.png" alt="Card image cap">
+			    <div class="card-body">
+			      <h5 class="card-title">Course Instructor</h5>
+			      <p class="card-text">I will be teaching multiple classes with topics varying from Coding Apps in Java and C++ to Artificial Intelligence and Machine Learning courses.</p>
+			    </div>
+			    <div class="card-footer">
+			      <small class="text-muted">Summer 2018</small>
+			    </div>
+			  </div>
+			</div>
+
 
 			<br><br>
 
  			<!-- PROJECTS -->
 			<h2><a name="linktoprojects"></a>Projects</h2>
-			<table border="6">
+
+			<div class="card-deck" id="card-deck-projects">
+			  <div class="card">
+			    <img class="card-img-top" src="https://udemy-images.udemy.com/course/750x422/950390_270f_3.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      <h5 class="card-title">Machine Learning A-Z: Hands-On Python In Data Science</h5>
+			      <p class="card-text">Udemy.com course that focuses on creating Machine
+							Learning algorithms and models using Python. Data processing, regressions, classification, clustering, reinforcement
+							learning, natural language processing, deep learning, and model selection.
+
+							<br><br>
+
+							Languages and Frameworks: <strong>Python</strong>
+						</p>
+			    </div>
+			    <div class="card-footer">
+			      <small class="text-muted">Jan 2018 - Mar 2018</small>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <img class="card-img-top" src="https://udemy-images.udemy.com/course/750x422/625204_436a_2.jpg" alt="Card image cap">
+			    <div class="card-body">
+			      <h5 class="card-title">Web Developer Bootcamp</h5>
+			      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+			    </div>
+			    <div class="card-footer">
+			      <small class="text-muted">Apr 2018 - Present</small>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <img class="card-img-top" src="https://preview.ibb.co/mg4Wbn/doodlejump2.png" alt="Card image cap">
+			    <div class="card-body">
+			      <h5 class="card-title">Doodle Jump</h5>
+			      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			    </div>
+			    <div class="card-footer">
+			      <small class="text-muted">Last updated 3 mins ago</small>
+			    </div>
+			  </div>
+			</div>	
+
+<!-- ORIGINAL TABLE DESIGN -->
+			<!-- <table border="6">
 				<thead>
 					<tr>
 						<th><strong>Project 1</strong></th>
@@ -114,18 +148,21 @@
 						</td>
 					</tr>
 				</tbody>
-			</table>
+			</table> -->
 
 			<br><br>
 
+			<!-- EDUCATION -->
 			<h2><a name="linktoeducation"></a>Education</h2>
 				<div>
-					<em>University of California, San Diego <br>
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/316px-University_of_California%2C_San_Diego_seal.svg.png">
+					<br><br>
+					<em class="school_and_major">University of California, San Diego <br>
 					B.S. Computer Science <br>
 					Graduation Date: June 2021</em>
 				</div>	
 				<br>
-				<table border="6">
+				<table border="6" id="courses-table">
 					<thead>
 						<tr><th><strong><font size="5">Courses</font></strong></th></tr>
 					</thead>
@@ -133,12 +170,37 @@
 						<tr>
 							<td>
 								<ul>
-									<li><strong>CSE 11: </strong>Introduction to Computer Science and Object-Oriented Programming: Java</li>
-									<li><strong>CSE 12: </strong>Basic Data Structures and Object-Oriented Design</li>
-									<li><strong>CSE 15L: </strong>Software Tools and Techniques Laboratory</li>
-									<li><strong>CSE 20: </strong>Discrete Mathematics</li>
-									<li><strong>CSE 21: </strong>Mathematics for Algorithms and Systems</li>
-									<li><strong>CSE 30: </strong>Computer Organization and Systems Programming</li>
+									<li><strong>CSE 11: </strong>Introduction to Computer Science and Object-Oriented Programming: Java 
+										<ul>
+											<li>Topics: 10 projects involving GUI, object oriented programming and design, multi-threading, event
+listeners, user input and error handling, recursion, inheritance, abstract classes, and interfaces.</li>
+										</ul>
+									</li>
+									<li><strong>CSE 12: </strong>Basic Data Structures and Object-Oriented Design
+										<ul>
+											<li>Topics: JUnit testing, pagination, linked lists, doubly-linked lists, stacks, queues, binary trees, binary search trees, hash maps and tables, min/max heaps, sorting, and analyzing runtime.</li>
+										</ul>
+									</li>
+									<li><strong>CSE 15L: </strong>Software Tools and Techniques Laboratory
+										<ul>
+											<li>Topics: Unix, vim, debugging, JUnit, makefiles, and git.</li>
+										</ul>
+									</li>
+									<li><strong>CSE 30: </strong>Computer Organization and Systems Programming
+										<ul>
+											<li>Topics: Assembly language, ARM architecture, program memory analyzation.</li>
+										</ul>
+									</li>
+									<li><strong>CSE 20: </strong>Discrete Mathematics
+										<ul>
+											<li>Topics: Logic, logic gates, induction, modular arithmetic, RSA crypto, etc.</li>
+										</ul>
+									</li>
+									<li><strong>CSE 21: </strong>Mathematics for Algorithms and Systems
+										<ul>
+											<li>Topics: Induction, counting, recursion, runtime, etc.</li>
+										</ul>
+									</li>
 								</ul>
 							</td>
 						</tr>
@@ -148,8 +210,8 @@
 			<br><br>
 
 			<h2><a name="linktocontact"></a>Contact</h2>
-			<a href="https://github.com/danielfritsch" class="fa fa-linkedin"></a>
-			<a href="https://www.linkedin.com/in/daniel-f-a8037084/" class="fa fa-github"></a>
+			<a href="https://www.linkedin.com/in/daniel-f-a8037084/" class="fa fa-linkedin"></a>
+			<a href="https://github.com/danielfritsch" class="fa fa-github"></a>
 			<br>
 
 			<p><a href="#linktotop">Return to top</a></p>

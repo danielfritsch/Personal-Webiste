@@ -1,5 +1,6 @@
 body {
 	background: #f9f9f9;
+	font-family: 'Lato', sans-serif;
 }
 h1 {
 	font-size: 70px;
@@ -11,8 +12,18 @@ h2 {
 }
 
 /* NAVBAR */
+
+nav {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	height: 60px;
+	background-color: red;
+}
+
 .navbar-brand {
+	font-family: 'Roboto Slab', serif;
 	font-size: 32px;
+	font-weight: 700;
 }
 
 .fa {
@@ -37,4 +48,28 @@ h2 {
 .fa-github {
 	background: #333333;
 	color: white;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+/* PROJECTS */
+#card-deck-projects {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+#card-deck-work {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.school_and_major {
+	font-size: 18px;
+}
+
+#courses-table {
+	max-width: 650px;
 }
