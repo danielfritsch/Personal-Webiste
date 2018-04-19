@@ -4,11 +4,11 @@ body {
 }
 h1 {
 	font-size: 70px;
-	color: #e67700; 
+	color: #21375b; 
 }
 h2 {
 	font-size: 50px;
-	color: #e67700; 
+	color: #21375b; 
 }
 
 /* NAVBAR */
@@ -24,6 +24,25 @@ nav {
 	font-family: 'Roboto Slab', serif;
 	font-size: 32px;
 	font-weight: 700;
+}
+
+#intro {
+	text-align-last: left;
+}
+
+.card {
+	text-align: left;
+}
+
+#big-daniel {
+	color: #21375b;
+}
+
+#face {
+	border-radius: 5%;
+	height: 180px;
+	width: 180px;
+	/*border: 4px solid #21375b; */
 }
 
 .fa {
@@ -50,7 +69,7 @@ nav {
 	color: white;
 }
 
-img {
+#ucsd-img {
 	height: 200px;
 	width: 200px;
 }
