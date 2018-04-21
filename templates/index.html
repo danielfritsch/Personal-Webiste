@@ -24,12 +24,15 @@
 		<!-- <nav class="navbar fixed-top navbar-light bg-light"> -->
 		<nav class="navbar sticky-top navbar-custom">
  			<a id="big-daniel" class="navbar-brand" href="#linktotop">Daniel Fritsch &emsp;|</a>
- 			<a id="navlink" href="#linktotop">Home</a>
-			<a id="navlink" href="#linktowork">Work Experience</a>
-			<a id="navlink" href="#linktoprojects">Projects</a>
-			<a id="navlink" href="#linktoeducation">Education</a>
-			<a id="navlink" href="file:///Users/danielfritsch/Desktop/Daniel_Fritsch_Resume.pdf" target="_blank">Resume</a>
-			<a id="navlink" href="#linktocontact">Contact</a>
+ 			<a class="navlink" href="#linktotop">Home</a>
+			<a class="navlink" href="#linktowork">Work Experience</a>
+			<a class="navlink" href="#linktoprojects">Projects</a>
+			<a class="navlink" href="#linktoeducation">Education</a>
+			<!-- <a class="navlink" href="file:///Users/danielfritsch/Desktop/Daniel_Fritsch_Resume.pdf" download>Resume</a> -->
+			<a class="navlink" href="Daniel_Fritsch_Resume.pdf" target="_blank">Resume</a>
+			<!-- <a class="navlink" href={{ url_for('resume') }}>Resume</a> -->
+			<!-- <a class="navlink" href="file:///Users/danielfritsch/Desktop/Daniel_Fritsch_Resume.pdf" target="_blank">Resume</a> -->
+			<a class="navlink" href="#linktocontact">Contact</a>
 		</nav>
 		<p><a name="linktotop"></a></p>
 
@@ -41,18 +44,18 @@
 			<h1>Hi I'm Daniel!</h1>	
 			<br>
 			<div class="container" id="intro">
-					<!-- <font size="4"> -->
-					I am a first year student at the University of California, San Diego. I am pursuing a Bachelor's degree in Computer Science, and a minor in Economics. I have previously interned as a Software Engineer at Pyze during summer 2016, and will be an instructor for iD Tech at Stanford University during summer 2018.
+					I am a first year student at the University of California, San Diego. I am pursuing a Bachelor's degree in Computer Science, and a minor in Economics. I have interned as a Software Engineer at a startup named Pyze during summer 2016, and will be an instructor for iD Tech at Stanford University during summer 2018.
 					<br>
-					<!-- </font> -->
+					<br>
+					I am passionate for applying my skills to create practical solutions in the real world. I believe that every moment in our lives is an opportunity for us to consciously better outselves and others, in the best way we see fit.
 			</div>
 			<br>
-
 			<hr>
-			<br>
+			<br><br>
 		
 			<!-- WORK EXPERIENCE -->
 			<h2><a name="linktowork"></a>Work Experience</h2>
+				<br>
 
 			<div class="card-deck" id="card-deck-work">
 			  <div class="card" id="card-work">
@@ -61,6 +64,8 @@
 			      <h4 class="card-title">Software Engineering Intern</h4>
 			      <p class="card-text">
 			      	<strong>Pyze</strong> is a small startup that uses AI technologies to help automate growth for businesses at any stage in their development. I was part of the <strong>automated growth team</strong>, where I developed a Python script that automatically gathers potential client/company emails and sends an introductory email about the services Pyze has to offer. I also had a leading role in the <strong>marketing team</strong>, where I led some marketing operations such as improving the Twitter profile, connecting with clients over email, and created/updated blog posts with new and relevant product information.
+			      	<br><br>
+			      	Working at Pyze gave me insights into the many interesting operations that startups consist of on a daily basis. It furthered my understanding of the tech industry, and stimulated my interest and passion in entrepreneurship.
 			      </p>
 			    </div>
 			    <div class="card-footer">
@@ -79,13 +84,13 @@
 			  </div>
 			</div>
 
-			<br><br>
-			<hr>
-
 			<br>
+			<hr>
+			<br><br>
 
  			<!-- PROJECTS -->
 			<h2><a name="linktoprojects"></a>Projects</h2>
+				<br>
 
 			<div class="card-deck" id="card-deck-projects">
 			  <div class="card">
@@ -113,7 +118,7 @@
 
 			      <br><br><br><br><br><br>
 			      
-			      Languages and Frameworks: <strong>HTML, CSS, JavaScript</strong>
+			      Languages and Frameworks: <strong>HTML, CSS, JavaScript, Python, Flask</strong>
 			    </p>
 			    </div>
 			    <div class="card-footer">
@@ -128,7 +133,7 @@
 			      <p class="card-text">
 			      	Doodle Jump is a Java GUI game that I created as a project in high school.
 
-			      	<br><br><br><br><br><br>
+			      	<br><br><br><br>
 
 			      	Languages and Frameworks: <strong>Java, Java GUI</strong>
 			      </p>
@@ -139,14 +144,13 @@
 			  </div>
 			</div>	
 
-			<br><br>
-
-			<hr>
-
 			<br>
+			<hr>
+			<br><br>
 
 			<!-- EDUCATION -->
 			<h2><a name="linktoeducation"></a>Education</h2>
+				<br>
 				<div>
 					<img id="ucsd-img" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/University_of_California%2C_San_Diego_seal.svg/316px-University_of_California%2C_San_Diego_seal.svg.png">
 					<br><br>
@@ -155,9 +159,9 @@
 					Graduation Date: June 2021</em>
 				</div>	
 				<br>
-				<table border="6" id="courses-table">
+				<!-- <table border="6" id="courses-table">
 					<thead>
-						<tr><th><strong><font size="5">Courses</font></strong></th></tr>
+						<tr><th><strong><font size="5">Relevant Courses</font></strong></th></tr>
 					</thead>
 					<tbody>
 						<tr>
@@ -184,23 +188,40 @@
 											<li>Topics: Assembly language, ARM architecture, program memory analyzation.</li>
 										</ul>
 									</li>
-									<li><strong>CSE 20: </strong>Discrete Mathematics
-										<ul>
-											<li>Topics: Logic, logic gates, induction, modular arithmetic, RSA crypto, etc.</li>
-										</ul>
-									</li>
-									<li><strong>CSE 21: </strong>Mathematics for Algorithms and Systems
-										<ul>
-											<li>Topics: Induction, counting, recursion, runtime, etc.</li>
-										</ul>
-									</li>
 								</ul>
 							</td>
-						</tr>
-				</tbody>
-			</table>
+						</tr> -->
 
-			<br><br>
+						<div class="container">
+							<strong class="">Relevant Coursework</strong>
+							<ul>
+								<li><strong>CSE 11: </strong>Introduction to Computer Science and Object-Oriented Programming: Java 
+									<ul>
+										<li>Topics: 10 projects involving GUI, object oriented programming and design, multi-threading, event
+											listeners, user input and error handling, recursion, inheritance, abstract classes, and interfaces.</li>
+									</ul>
+								</li>
+								<li><strong>CSE 12: </strong>Basic Data Structures and Object-Oriented Design
+									<ul>
+										<li>Topics: JUnit testing, pagination, linked lists, doubly-linked lists, stacks, queues, binary trees, binary search trees, hash maps and tables, min/max heaps, sorting, and analyzing runtime.</li>
+									</ul>
+								</li>
+								<li><strong>CSE 15L: </strong>Software Tools and Techniques Laboratory
+									<ul>
+										<li>Topics: Unix, vim, debugging, JUnit, makefiles, and git.</li>
+									</ul>
+								</li>
+								<li><strong>CSE 30: </strong>Computer Organization and Systems Programming
+									<ul>
+										<li>Topics: Assembly language, ARM architecture, program memory analyzation.</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+				<!-- </tbody> -->
+			<!-- </table> -->
+
+			<br>
 
 
 			<div class="contact-section">

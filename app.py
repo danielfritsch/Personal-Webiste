@@ -9,8 +9,7 @@ def index():
 
 @app.route("/resume")
 def resume():
-  return render_template ('file:///Users/danielfritsch/Desktop/Daniel_Fritsch_Resume.pdf')
+  return render_template ('Daniel_Fritsch_Resume.pdf')
 
 if __name__ == "__main__":
   app.run()
-

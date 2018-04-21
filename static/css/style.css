@@ -3,11 +3,26 @@ body {
 	font-family: 'Lato', sans-serif;
 
 }
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+/*hr{
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}*/
+
 h1 {
+	text-shadow: 2px 2px 4px #757575;
+	/*text-shadow: 1px 1px 3px #000000;*/
 	font-size: 70px;
 	color: #21375b; 
 }
 h2 {
+	text-shadow: 1px 1px 3px #000000;
 	font-size: 50px;
 	color: #21375b; 
 }
@@ -18,6 +33,7 @@ nav {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	height: 60px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	/*color: #f2f2f2;*/
 }
 
@@ -28,7 +44,7 @@ nav {
 
 }
 
-#navlink {
+.navlink {
 	color: white;
 	margin-right: 45px;
 	/*color: #c4c4c4;  Medium grey */
@@ -49,11 +65,18 @@ nav {
 
 #intro {
 	font-size: 18px;
-	text-align-last: left;
+	text-align: left;
+	width: 	900px;
 }
 
+/*#intro {
+	font-size: 18px;
+	text-align-last: left;
+}
+*/
 .card {
 	text-align: left;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -61,19 +84,20 @@ nav {
 	border-radius: 5%;
 	height: 180px;
 	width: 180px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
 	/*border: 4px solid #21375b; */
 }
 
 #pyze-img {
 	height: 180px;
-	width: 538px;	
+	width: 488px;	
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
 }
 
 #idtech-img {
-	height: 180px;
+	height: 240px;
 	width: 538px;	
 	margin-left: auto;
 	margin-right: auto;
@@ -96,11 +120,14 @@ nav {
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fa-github {
 	background: #333333;
 	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 20px;
 }
 
 #ucsd-img {
@@ -109,7 +136,7 @@ nav {
 }
 
 #doodle-img {
-	height: 380px; /* 260px was what it was at before that was sorta good, but made it seem a bit too compressed */
+	height: 310px; /* 260px was what it was at before that was sorta good, but made it seem a bit too compressed */
 }
 
 /* PROJECTS */
@@ -131,6 +158,11 @@ nav {
 	max-width: 650px;
 }
 
+.container {
+	text-align: left;
+	width: 700px;
+}
+
 .contact-section {
 	/*background: #39547f;*/
 	/*background: #576c8e;*/
@@ -138,5 +170,6 @@ nav {
 }
 
 .contact-header {
+	text-shadow: 1px 1px 3px #000000;
 	color: white;
 }
