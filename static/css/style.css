@@ -1,8 +1,6 @@
 body {
-	/*background: #fcfcfc;*/
+	background: #fcfcfc;
 	font-family: 'Lato', sans-serif;
-	background: red;
-
 }
 
 hr {
@@ -71,14 +69,21 @@ nav {
 	width: 	900px;
 }
 
-/*#intro {
-	font-size: 18px;
-	text-align-last: left;
+/* PROJECTS */
+#card-deck-projects {
+	margin-left: 18px;
+	margin-right: 18px;
 }
-*/
+
+#card-deck-work {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
 .card {
 	text-align: left;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+	background: #fff6ed;
 }
 
 
@@ -120,12 +125,20 @@ nav {
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  /*background: #007bb5;*/
+  background: #333333;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fa-github {
+	background: #333333;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 20px;
+}
+
+.fa-envelope-o {
 	background: #333333;
 	color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -138,26 +151,23 @@ nav {
 }
 
 #doodle-img {
-	height: 310px; /* 260px was what it was at before that was sorta good, but made it seem a bit too compressed */
+	height: 285px; /* 260px was what it was at before that was sorta good, but made it seem a bit too compressed */
 }
 
-/* PROJECTS */
-#card-deck-projects {
-	margin-left: 18px;
-	margin-right: 18px;
-}
 
-#card-deck-work {
-	margin-left: 40px;
-	margin-right: 40px;
-}
 
 .school_and_major {
 	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
 }
 
-#courses-table {
-	max-width: 650px;
+#coursework {
+	margin-left: 23px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
 }
 
 .container {
@@ -176,4 +186,13 @@ nav {
 	color: white;
 }
 
-/**/
+#email-tag {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#email-link {
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+}
