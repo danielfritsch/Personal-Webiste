@@ -20,13 +20,13 @@ h1 {
 	text-shadow: 2px 2px 4px #757575;
 	/*text-shadow: 1px 1px 3px #000000;*/
 	font-size: 70px;
-	color: #21375b; 
+	color: #21375b;
 }
 
 h2 {
 	text-shadow: 1px 1px 3px #000000;
 	font-size: 50px;
-	color: #21375b; 
+	color: #21375b;
 }
 
 /* NAVBAR */
@@ -42,7 +42,7 @@ nav {
 .navbar-custom {
 	/*background: #efefef;*/
 	/*background:#c6c6c6; */
-	background: #140d35; /* Navy background */ 
+	background: #140d35; /* Navy background */
 
 }
 
@@ -60,7 +60,7 @@ nav {
 
 #big-daniel {
 	/*color: #21375b;*/
-	color: #c4c4c4;  /*Medium grey*/ 
+	color: #c4c4c4;  /*Medium grey*/
 	margin-left: 25px;
 	/*color: white;*/
 }
@@ -92,7 +92,7 @@ nav {
 
 #pyze-img {
 	height: 180px;
-	width: 488px;	
+	width: 488px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
@@ -100,7 +100,7 @@ nav {
 
 #idtech-img {
 	height: 240px;
-	width: 538px;	
+	width: 538px;
 	margin-left: auto;
 	margin-right: auto;
 }
