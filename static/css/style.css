@@ -56,25 +56,11 @@ nav {
 	/*color: #c4c4c4;  Medium grey */
 }
 
-/*.navbar-brand {
-	font-family: 'Roboto Slab', serif;
-	font-size: 32px;
-	font-weight: 700;
-}*/
-
 #bar {
-	/*color: #21375b;*/
-<<<<<<< HEAD
-	color: #c4c4c4;  /*Medium grey*/
-	margin-left: 25px;
-=======
 	color: white;  /*Medium grey*/ 
-	/*margin-left: 15px;  was 25px */
 	font-family: 'Roboto Slab', serif;
 	font-size: 32px;
 	font-weight: 700;
->>>>>>> c15d0d4f2bd410317019e3bf19481257e71e744a
-	/*color: white;*/
 }
 
 #intro {
@@ -167,8 +153,6 @@ nav {
 #doodle-img {
 	height: 285px; /* 260px was what it was at before that was sorta good, but made it seem a bit too compressed */
 }
-
-
 
 .school_and_major {
 	font-size: 18px;
