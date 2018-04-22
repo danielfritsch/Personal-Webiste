@@ -44,22 +44,36 @@ nav {
 
 }
 
+#icon {
+	margin-left: 45px;
+	height: 40px;
+	width: 40px;
+}
+
 .navlink {
 	color: white;
 	margin-right: 45px;
 	/*color: #c4c4c4;  Medium grey */
 }
 
-.navbar-brand {
+/*.navbar-brand {
 	font-family: 'Roboto Slab', serif;
 	font-size: 32px;
 	font-weight: 700;
-}
+}*/
 
-#big-daniel {
+#bar {
 	/*color: #21375b;*/
+<<<<<<< HEAD
 	color: #c4c4c4;  /*Medium grey*/
 	margin-left: 25px;
+=======
+	color: white;  /*Medium grey*/ 
+	/*margin-left: 15px;  was 25px */
+	font-family: 'Roboto Slab', serif;
+	font-size: 32px;
+	font-weight: 700;
+>>>>>>> c15d0d4f2bd410317019e3bf19481257e71e744a
 	/*color: white;*/
 }
 
