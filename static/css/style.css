@@ -17,7 +17,9 @@ hr {
 h1 {
 	text-shadow: 2px 2px 4px #757575;
 	/*text-shadow: 1px 1px 3px #000000;*/
+	/*font-size: 5.5vw;*/
 	font-size: 70px;
+	/*display: inline-flex;*/
 	color: #21375b;
 }
 
@@ -73,12 +75,14 @@ nav {
 #card-deck-projects {
 	margin-left: 18px;
 	margin-right: 18px;
+	/*display: inline-flex;*/
 }
 
 #card-deck-work {
 	margin-left: 40px;
 	margin-right: 40px;
 }
+
 
 .card {
 	text-align: left;
@@ -91,6 +95,8 @@ nav {
 	border-radius: 5%;
 	height: 180px;
 	width: 180px;
+	max-width: 100%;		/* NOT WORKING??? */
+	height: auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
 	/*border: 4px solid #21375b; */
 }
@@ -98,6 +104,8 @@ nav {
 #pyze-img {
 	height: 180px;
 	width: 488px;
+	max-width: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
@@ -106,6 +114,8 @@ nav {
 #idtech-img {
 	height: 240px;
 	width: 538px;
+	max-width: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
