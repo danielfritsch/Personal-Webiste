@@ -20,7 +20,11 @@
 .navigation a {
   text-decoration: none;
   display: block;
+<<<<<<< HEAD
   padding: 1em;
+=======
+  padding: 10px;
+>>>>>>> 8f57c5ba8e3e8b2dbee28d5da3913833daf07e5a
   color: white;
 }
 
@@ -144,6 +148,20 @@ nav {
 	text-align: left;
 	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
 	background: #fff6ed;
+}
+
+.waitz {
+	margin-left: 275px;
+	margin-right: 275px;
+	margin-bottom: 30px;
+
+}
+
+.waitz-img {
+	height: 170px;
+	width: 300px;
+	margin: auto;
+	margin-top: 20px;
 }
 
 
