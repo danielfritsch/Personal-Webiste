@@ -1,61 +1,61 @@
 @import "compass/css3";
 
 .navigation {
-<<<<<<< HEAD
-      list-style: none;
-        margin: 0; 
-          
-          background: deepskyblue;
+      font-size: 2.2vmin;
+        list-style: none;
+          margin: 0; 
             
-            display: -webkit-box;
-              display: -moz-box;
-                display: -ms-flexbox;
-                  display: -webkit-flex;
-                    display: flex;
-                      
-                      -webkit-flex-flow: row wrap;
-                        padding-left: 10%;
-                          justify-content: flex-start;
-                      }
+            background: deepskyblue;
+              
+              display: -webkit-box;
+                display: -moz-box;
+                  display: -ms-flexbox;
+                    display: -webkit-flex;
+                      display: flex;
+                        
+                        -webkit-flex-flow: row wrap;
+                          padding-left: 10%;
+                            justify-content: flex-start;
+                        }
 
-                      .navigation a {
-                            text-decoration: none;
-                              display: block;
-                                padding: 10px;
-                                  color: white;
-                              }
-
-                              .navigation a:hover {
-                                    background: darken(deepskyblue, 2%);
+                        .navigation a {
+                              text-decoration: none;
+                                display: block;
+                                  padding: 10px;
+                                    color: white;
                                 }
 
-                                @media all and (max-width: 800px) {
-                                      .navigation {
-                                              justify-content: space-around;
-                                                }
-                                            }
+                                .navigation a:hover {
+                                      background: darken(deepskyblue, 2%);
+                                  }
 
-                                            @media all and (max-width: 600px) {
-                                                  .navigation {
-                                                          -webkit-flex-flow: column wrap;
-                                                              flex-flow: column wrap;
-                                                                  padding: 0;
-                                                                    }
-                                                                      
-                                                                      .navigation a { 
-                                                                              text-align: center; 
-                                                                                  padding: 10px;
-                                                                                      border-top: 1px solid rgba(255,255,255,0.3); 
-                                                                                          border-bottom: 1px solid rgba(0,0,0,0.1); 
-                                                                                            }
+                                  @media all and (max-width: 800px) {
+                                        .navigation {
+                                                justify-content: space-around;
+                                                  }
+                                              }
 
-                                                                                              
-                                                                                              .navigation li:last-of-type a {
-                                                                                                      border-bottom: none;
-                                                                                                        }
-                                                                                                    }
+                                              @media all and (max-width: 600px) {
+                                                    .navigation {
+                                                            -webkit-flex-flow: column wrap;
+                                                                flex-flow: column wrap;
+                                                                    padding: 0;
+                                                                      }
+                                                                        
+                                                                        .navigation a { 
+                                                                                text-align: center; 
+                                                                                    padding: 10px;
+                                                                                        border-top: 1px solid rgba(255,255,255,0.3); 
+                                                                                            border-bottom: 1px solid rgba(0,0,0,0.1); 
+                                                                                              }
 
-                                                                                                    body {
+                                                                                                
+                                                                                                .navigation li:last-of-type a {
+                                                                                                        border-bottom: none;
+                                                                                                          }
+                                                                                                      }
+
+                                                                                                      body {
                                                                                                             background: #fcfcfc;
                                                                                                                 font-family: 'Lato', sans-serif;
                                                                                                             }
@@ -71,517 +71,241 @@
                                                                                                                          *          box-shadow: 0 10px 10px -10px #8c8b8b inset;
                                                                                                                          *          }*/
 
-h1 {
-        text-shadow: 2px 2px 4px #757575;
-            /*text-shadow: 1px 1px 3px #000000;*/
-            /*font-size: 5.5vw;*/
-            font-size: 70px;
-                /*display: inline-flex;*/
+h2 {
+        text-shadow: 1px 1px 3px #000000;
+            font-size: 5.0vw;
                 color: #21375b;
             }
 
-            h2 {
-                    text-shadow: 1px 1px 3px #000000;
-                        font-size: 50px;
-                            color: #21375b;
-                        }
+            h4 {
+                    font-size: 2.0vw;
+                }
 
-                        /* NAVBAR */
+                h5 {
+                        font-size: 1.7vw;
+                    }
 
-                        nav {
-                                font-family: 'Roboto Slab', serif;
-                                    font-weight: 400;
-                                        height: 60px;
-                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                                                /*color: #f2f2f2;*/
+                    /* NAVBAR */
+
+                    nav {
+                            font-family: 'Roboto Slab', serif;
+                                font-weight: 400;
+                                    height: 60px;
+                                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            /*color: #f2f2f2;*/
+                                    }
+
+                                    .navbar-custom {
+                                            /*background: #efefef;*/
+                                            /*background:#c6c6c6; */
+                                            background: #140d35; /* Navy background */
+
                                         }
 
-                                        .navbar-custom {
-                                                /*background: #efefef;*/
-                                                /*background:#c6c6c6; */
-                                                background: #140d35; /* Navy background */
+                                        #icon {
+                                                margin-left: 45px;
+                                                    height: 40px;
+                                                        width: 40px;
+                                                    }
 
-                                            }
+                                                    .navlink {
+                                                            color: white;
+                                                                margin-right: 15px;
+                                                                    /*color: #c4c4c4;  Medium grey */
+                                                            }
 
-                                            #icon {
-                                                    margin-left: 45px;
-                                                        height: 40px;
-                                                            width: 40px;
-                                                        }
+                                                            #bar {
+                                                                    color: white;  /*Medium grey*/ 
+                                                                        font-family: 'Roboto Slab', serif;
+                                                                            font-size: 32px;
+                                                                                font-weight: 700;
+                                                                            }
 
-                                                        .navlink {
-                                                                color: white;
-                                                                    margin-right: 15px;
-                                                                        /*color: #c4c4c4;  Medium grey */
-                                                                }
-
-                                                                #bar {
-                                                                        color: white;  /*Medium grey*/ 
-                                                                            font-family: 'Roboto Slab', serif;
-                                                                                font-size: 32px;
-                                                                                    font-weight: 700;
-                                                                                }
-
-                                                                                #intro {
-                                                                                        font-size: 18px;
-                                                                                            text-align: left;
-                                                                                                width:  900px;
+                                                                            #intro {
+                                                                                    font-size: 1.4vw;
+                                                                                        text-align: left;
+                                                                                            max-width: 70%;
+                                                                                                width: auto;
                                                                                             }
 
                                                                                             /* PROJECTS */
                                                                                             #card-deck-projects {
-                                                                                                    margin-left: 18px;
-                                                                                                        margin-right: 18px;
-                                                                                                            /*display: inline-flex;*/
-                                                                                                    }
+                                                                                                    margin-left: 40px;
+                                                                                                        margin-right: 40px;
+                                                                                                            display: flex;
+                                                                                                                flex-direction: row;
+                                                                                                                    flex-wrap: wrap; 
+                                                                                                                        justify-content: center;
+                                                                                                                    }
 
-                                                                                                    #card-deck-work {
-                                                                                                            margin-left: 40px;
-                                                                                                                margin-right: 40px;
-                                                                                                            }
+                                                                                                                    #card-deck-work {
+                                                                                                                            display: flex;
+                                                                                                                                flex-direction: row;
+                                                                                                                                    flex-wrap: wrap;
+                                                                                                                                        justify-content: center;
+                                                                                                                                            margin-left: 40px;
+                                                                                                                                                margin-right: 40px;
+                                                                                                                                            }
 
+                                                                                                                                            .card-date {
+                                                                                                                                                    font-size: 1.2vw;
+                                                                                                                                                }
 
-                                                                                                            .card {
-                                                                                                                    text-align: left;
-                                                                                                                        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
-                                                                                                                            background: #fff6ed;
-                                                                                                                        }
-
-                                                                                                                        .waitz {
-                                                                                                                                margin-left: 275px;
-                                                                                                                                    margin-right: 275px;
-                                                                                                                                        margin-bottom: 30px;
-
-                                                                                                                                    }
-
-                                                                                                                                    .waitz-img {
-                                                                                                                                            height: 170px;
-                                                                                                                                                width: 300px;
-                                                                                                                                                    margin: auto;
-                                                                                                                                                        margin-top: 20px;
+                                                                                                                                                .card-text {
+                                                                                                                                                        font-size: 1.2vw;
                                                                                                                                                     }
 
+                                                                                                                                                    .work-card {
+                                                                                                                                                            text-align: left;
+                                                                                                                                                                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+                                                                                                                                                                    background: #fff6ed;
+                                                                                                                                                                        max-width: 500px;
+                                                                                                                                                                            margin: 20px;
+                                                                                                                                                                        }
 
-                                                                                                                                                    #face {
-                                                                                                                                                            border-radius: 5%;
-                                                                                                                                                                height: 180px;
-                                                                                                                                                                    width: 180px;
-                                                                                                                                                                        max-width: 100%;        /* NOT WORKING??? */
-                                                                                                                                                                            height: auto;
-                                                                                                                                                                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
-                                                                                                                                                                                    /*border: 4px solid #21375b; */
-                                                                                                                                                                            }
+                                                                                                                                                                        .project-card {
+                                                                                                                                                                                text-align: left;
+                                                                                                                                                                                    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+                                                                                                                                                                                        background: #fff6ed;
+                                                                                                                                                                                            max-width: 500px;
+                                                                                                                                                                                                margin: 20px;
+                                                                                                                                                                                            }
 
-                                                                                                                                                                            #pyze-img {
-                                                                                                                                                                                    height: 170px;
-                                                                                                                                                                                        width: 468px;
-                                                                                                                                                                                            max-width: 100%;
-                                                                                                                                                                                                height: auto;
-                                                                                                                                                                                                    margin-left: auto;
-                                                                                                                                                                                                        margin-right: auto;
-                                                                                                                                                                                                            padding-top: 30px;
-                                                                                                                                                                                                                padding-bottom: 40px;
+                                                                                                                                                                                            .waitz-img {
+                                                                                                                                                                                                    width: auto;
+                                                                                                                                                                                                        max-width: 50%;
+                                                                                                                                                                                                            height: auto;
+                                                                                                                                                                                                                margin: 3% 25%;
                                                                                                                                                                                                             }
 
-                                                                                                                                                                                                            #idtech-img {
-                                                                                                                                                                                                                    height: 240px;
-                                                                                                                                                                                                                        width: 538px;
-                                                                                                                                                                                                                            max-width: 100%;
+                                                                                                                                                                                                            #hello {
+                                                                                                                                                                                                                    text-shadow: 2px 2px 4px #757575;
+                                                                                                                                                                                                                        font-size: 5.6vw;
+                                                                                                                                                                                                                            color: #21375b;
                                                                                                                                                                                                                                 height: auto;
-                                                                                                                                                                                                                                    margin-left: auto;
-                                                                                                                                                                                                                                        margin-right: auto;
-                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                    width: auto;
+                                                                                                                                                                                                                                }
 
-                                                                                                                                                                                                                                    .fa {
-                                                                                                                                                                                                                                          padding: 20px;
-                                                                                                                                                                                                                                            font-size: 50px;
-                                                                                                                                                                                                                                              width: 60px;
-                                                                                                                                                                                                                                                text-align: center;
-                                                                                                                                                                                                                                                  text-decoration: none;
-                                                                                                                                                                                                                                                    margin: 5px 2px;
-                                                                                                                                                                                                                                                      border-radius: 50%;
-                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                #face {
+                                                                                                                                                                                                                                        border-radius: 5%;
+                                                                                                                                                                                                                                            height: auto;
+                                                                                                                                                                                                                                                width: auto;
+                                                                                                                                                                                                                                                    max-width: 15%;     /* NOT WORKING??? */
+                                                                                                                                                                                                                                                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+                                                                                                                                                                                                                                                    }
 
-                                                                                                                                                                                                                                                  .fa:hover {
-                                                                                                                                                                                                                                                          opacity: 0.7;
-                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                    #pyze-img {
+                                                                                                                                                                                                                                                            width: auto;
+                                                                                                                                                                                                                                                                max-width: 65%;
+                                                                                                                                                                                                                                                                    height: auto;
+                                                                                                                                                                                                                                                                        margin: 5% 10%;
+                                                                                                                                                                                                                                                                    }
 
-                                                                                                                                                                                                                                                      .fa-linkedin {
-                                                                                                                                                                                                                                                            /*background: #007bb5;*/
-                                                                                                                                                                                                                                                            background: #333333;
-                                                                                                                                                                                                                                                              color: white;
-                                                                                                                                                                                                                                                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                    #idtech-img {
+                                                                                                                                                                                                                                                                            height: auto;
+                                                                                                                                                                                                                                                                                width: auto;
+                                                                                                                                                                                                                                                                                    max-width: 85%;
+                                                                                                                                                                                                                                                                                        margin: 0% 5%;
+                                                                                                                                                                                                                                                                                            /*margin-left: auto;*/
+                                                                                                                                                                                                                                                                                            /*margin-right: auto;*/
+                                                                                                                                                                                                                                                                                    }
 
-                                                                                                                                                                                                                                                            .fa-github {
-                                                                                                                                                                                                                                                                    background: #333333;
-                                                                                                                                                                                                                                                                        color: white;
-                                                                                                                                                                                                                                                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                                                                                                                                                                                                                                                                                margin-bottom: 20px;
-                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                    .fa {
+                                                                                                                                                                                                                                                                                          padding: 1.7vw;
+                                                                                                                                                                                                                                                                                            font-size: 2.4vw;
+                                                                                                                                                                                                                                                                                              width: auto;
+                                                                                                                                                                                                                                                                                                height: auto;
+                                                                                                                                                                                                                                                                                                  max-width: 7%;
+                                                                                                                                                                                                                                                                                                    max-height: 7%;
 
-                                                                                                                                                                                                                                                                            .fa-envelope-o {
-                                                                                                                                                                                                                                                                                    background: #333333;
-                                                                                                                                                                                                                                                                                        color: white;
-                                                                                                                                                                                                                                                                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                                                                                                                                                                                                                                                                                                margin-bottom: 20px;
-                                                                                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                                                                                            #ucsd-img {
-                                                                                                                                                                                                                                                                                                    height: 200px;
-                                                                                                                                                                                                                                                                                                        width: 200px;
-                                                                                                                                                                                                                                                                                                    }
-
-                                                                                                                                                                                                                                                                                                    #doodle-img {
-                                                                                                                                                                                                                                                                                                            height: 285px; /* 260px was what it was at before that was sorta good, but made it seem a bit too compressed */
+                                                                                                                                                                                                                                                                                                      text-align: center;
+                                                                                                                                                                                                                                                                                                        text-decoration: none;
+                                                                                                                                                                                                                                                                                                          margin: 5px 2px;
+                                                                                                                                                                                                                                                                                                            border-radius: 50%;
                                                                                                                                                                                                                                                                                                         }
 
-                                                                                                                                                                                                                                                                                                        .school_and_major {
-                                                                                                                                                                                                                                                                                                                font-size: 18px;
-                                                                                                                                                                                                                                                                                                                    font-family: 'Lato', sans-serif;
-                                                                                                                                                                                                                                                                                                                        font-weight: bold;
-                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                        .fa:hover {
+                                                                                                                                                                                                                                                                                                                opacity: 0.7;
+                                                                                                                                                                                                                                                                                                            }
 
-                                                                                                                                                                                                                                                                                                                    #coursework {
-                                                                                                                                                                                                                                                                                                                            margin-left: 23px;
-                                                                                                                                                                                                                                                                                                                                margin-bottom: 10px;
-                                                                                                                                                                                                                                                                                                                                    font-weight: bold;
-                                                                                                                                                                                                                                                                                                                                        font-size: 30px;
-                                                                                                                                                                                                                                                                                                                                            font-style: italic;
-                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                            .fa-linkedin {
+                                                                                                                                                                                                                                                                                                                  /*background: #007bb5;*/
+                                                                                                                                                                                                                                                                                                                  background: #333333;
+                                                                                                                                                                                                                                                                                                                    color: white;
+                                                                                                                                                                                                                                                                                                                      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                                                                                                                                                                                                                                                                                  }
 
-                                                                                                                                                                                                                                                                                                                                        .container {
-                                                                                                                                                                                                                                                                                                                                                text-align: left;
-                                                                                                                                                                                                                                                                                                                                                    width: 700px;
+                                                                                                                                                                                                                                                                                                                  .fa-github {
+                                                                                                                                                                                                                                                                                                                        background: #333333;
+                                                                                                                                                                                                                                                                                                                            color: white;
+                                                                                                                                                                                                                                                                                                                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                                                                                                                                                                                                                                                                                                    margin-bottom: 20px;
+                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                .fa-envelope-o {
+                                                                                                                                                                                                                                                                                                                                        background: #333333;
+                                                                                                                                                                                                                                                                                                                                            color: white;
+                                                                                                                                                                                                                                                                                                                                                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                                                                                                                                                                                                                                                                                                                                    margin-bottom: 20px;
                                                                                                                                                                                                                                                                                                                                                 }
 
-                                                                                                                                                                                                                                                                                                                                                .contact-section {
-                                                                                                                                                                                                                                                                                                                                                        /*background: #39547f;*/
-                                                                                                                                                                                                                                                                                                                                                        /*background: #576c8e;*/
-                                                                                                                                                                                                                                                                                                                                                        background: #758caf;
-                                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                #ucsd-img {
+                                                                                                                                                                                                                                                                                                                                                        /*height: 200px;*/
+                                                                                                                                                                                                                                                                                                                                                        /*width: 200px;*/
+                                                                                                                                                                                                                                                                                                                                                        height: auto;
+                                                                                                                                                                                                                                                                                                                                                            width: auto;
+                                                                                                                                                                                                                                                                                                                                                                max-width: 17%;
+                                                                                                                                                                                                                                                                                                                                                                    margin: 0% 5%;
+                                                                                                                                                                                                                                                                                                                                                                }
 
-                                                                                                                                                                                                                                                                                                                                                    .contact-header {
-                                                                                                                                                                                                                                                                                                                                                            text-shadow: 1px 1px 3px #000000;
-                                                                                                                                                                                                                                                                                                                                                                color: white;
-                                                                                                                                                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                                                                                                                                                            #email-tag {
-                                                                                                                                                                                                                                                                                                                                                                    font-weight: bold;
-                                                                                                                                                                                                                                                                                                                                                                        font-size: 25px;
+                                                                                                                                                                                                                                                                                                                                                                #doodle-img {
+                                                                                                                                                                                                                                                                                                                                                                        height: 285px; /* 260px was what it was at before that was sorta good, but made it seem a bit too compressed */
                                                                                                                                                                                                                                                                                                                                                                     }
 
-                                                                                                                                                                                                                                                                                                                                                                    #email-link {
-                                                                                                                                                                                                                                                                                                                                                                            font-weight: bold;
-                                                                                                                                                                                                                                                                                                                                                                                color: white;
-                                                                                                                                                                                                                                                                                                                                                                                    font-size: 25px;
+                                                                                                                                                                                                                                                                                                                                                                    .school_and_major {
+                                                                                                                                                                                                                                                                                                                                                                            font-size: 1.7vw;
+                                                                                                                                                                                                                                                                                                                                                                                font-family: 'Lato', sans-serif;
+                                                                                                                                                                                                                                                                                                                                                                                    font-weight: bold;
                                                                                                                                                                                                                                                                                                                                                                                 }
-=======
-  font-size: 2.2vmin;
-  list-style: none;
-  margin: 0; 
-  
-  background: deepskyblue;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  padding-left: 10%;
-  justify-content: flex-start;
-}
 
-.navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 10px;
-  color: white;
-}
+                                                                                                                                                                                                                                                                                                                                                                                #coursework {
+                                                                                                                                                                                                                                                                                                                                                                                        margin-left: 23px;
+                                                                                                                                                                                                                                                                                                                                                                                            margin-bottom: 10px;
+                                                                                                                                                                                                                                                                                                                                                                                                font-weight: bold;
+                                                                                                                                                                                                                                                                                                                                                                                                    font-size: 2.4vw;
+                                                                                                                                                                                                                                                                                                                                                                                                        font-style: italic;
+                                                                                                                                                                                                                                                                                                                                                                                                    }
 
-.navigation a:hover {
-  background: darken(deepskyblue, 2%);
-}
+                                                                                                                                                                                                                                                                                                                                                                                                    .courses {
+                                                                                                                                                                                                                                                                                                                                                                                                            font-size: 1.3vw;
+                                                                                                                                                                                                                                                                                                                                                                                                        }
 
-@media all and (max-width: 800px) {
-  .navigation {
-    justify-content: space-around;
-  }
-}
+                                                                                                                                                                                                                                                                                                                                                                                                        .container {
+                                                                                                                                                                                                                                                                                                                                                                                                                text-align: left;
+                                                                                                                                                                                                                                                                                                                                                                                                                    width: 700px;
+                                                                                                                                                                                                                                                                                                                                                                                                                        max-width: 70%;
+                                                                                                                                                                                                                                                                                                                                                                                                                            width: auto;
+                                                                                                                                                                                                                                                                                                                                                                                                                        }
 
-@media all and (max-width: 600px) {
-  .navigation {
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
-    padding: 0;
-  }
-  
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid rgba(255,255,255,0.3); 
-    border-bottom: 1px solid rgba(0,0,0,0.1); 
-  }
+                                                                                                                                                                                                                                                                                                                                                                                                                        .contact-section {
+                                                                                                                                                                                                                                                                                                                                                                                                                                /*background: #39547f;*/
+                                                                                                                                                                                                                                                                                                                                                                                                                                /*background: #576c8e;*/
+                                                                                                                                                                                                                                                                                                                                                                                                                                background: #758caf;
+                                                                                                                                                                                                                                                                                                                                                                                                                            }
 
-  
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
-}
+                                                                                                                                                                                                                                                                                                                                                                                                                            .contact-header {
+                                                                                                                                                                                                                                                                                                                                                                                                                                    text-shadow: 1px 1px 3px #000000;
+                                                                                                                                                                                                                                                                                                                                                                                                                                        color: white;
+                                                                                                                                                                                                                                                                                                                                                                                                                                    }
 
-body {
-	background: #fcfcfc;
-	font-family: 'Lato', sans-serif;
-}
+                                                                                                                                                                                                                                                                                                                                                                                                                                    #email-tag {
+                                                                                                                                                                                                                                                                                                                                                                                                                                            font-weight: bold;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                font-size: 25px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                            }
 
-hr {
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
-}
-/*hr{
-	height: 10px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
-}*/
+                                                                                                                                                                                                                                                                                                                                                                                                                                            #email-link {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        color: white;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            font-size: 25px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
 
-h2 {
-	text-shadow: 1px 1px 3px #000000;
-	font-size: 5.0vw;
-	color: #21375b;
-}
-
-h4 {
-	font-size: 2.0vw;
-}
-
-h5 {
-	font-size: 1.7vw;
-}
-
-/* NAVBAR */
-
-nav {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 400;
-	height: 60px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	/*color: #f2f2f2;*/
-}
-
-.navbar-custom {
-	/*background: #efefef;*/
-	/*background:#c6c6c6; */
-	background: #140d35; /* Navy background */
-
-}
-
-#icon {
-	margin-left: 45px;
-	height: 40px;
-	width: 40px;
-}
-
-.navlink {
-	color: white;
-	margin-right: 15px;
-	/*color: #c4c4c4;  Medium grey */
-}
-
-#bar {
-	color: white;  /*Medium grey*/ 
-	font-family: 'Roboto Slab', serif;
-	font-size: 32px;
-	font-weight: 700;
-}
-
-#intro {
-	font-size: 1.4vw;
-	text-align: left;
-	max-width: 70%;
-	width: auto;
-}
-
-/* PROJECTS */
-#card-deck-projects {
-	margin-left: 40px;
-	margin-right: 40px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap; 
-	justify-content: center;
-}
-
-#card-deck-work {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-left: 40px;
-	margin-right: 40px;
-}
-
-.card-date {
-	font-size: 1.2vw;
-}
-
-.card-text {
-	font-size: 1.2vw;
-}
-
-.work-card {
-	text-align: left;
-	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
-	background: #fff6ed;
-	max-width: 500px;
-	margin: 20px;
-}
-
-.project-card {
-	text-align: left;
-	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 3px 15px 0 rgba(0, 0, 0, 0.15);
-	background: #fff6ed;
-	max-width: 500px;
-	margin: 20px;
-}
-
-.waitz-img {
-	width: auto;
-	max-width: 50%;
-	height: auto;
-	margin: 3% 25%;
-}
-
-#hello {
-	text-shadow: 2px 2px 4px #757575;
-	font-size: 5.6vw;
-	color: #21375b;
-	height: auto;
-	width: auto;
-}
-
-#face {
-	border-radius: 5%;
-	height: auto;
-	width: auto;
-	max-width: 15%;		/* NOT WORKING??? */
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
-}
-
-#pyze-img {
-	width: auto;
-	max-width: 65%;
-	height: auto;
-	margin: 5% 10%;
-}
-
-#idtech-img {
-	height: auto;
-	width: auto;
-	max-width: 85%;
-	margin: 0% 5%;
-	/*margin-left: auto;*/
-	/*margin-right: auto;*/
-}
-
-.fa {
-  padding: 1.7vw;
-  font-size: 2.4vw;
-  width: auto;
-  height: auto;
-  max-width: 7%;
-  max-height: 7%;
-
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-linkedin {
-  /*background: #007bb5;*/
-  background: #333333;
-  color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.fa-github {
-	background: #333333;
-	color: white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 20px;
-}
-
-.fa-envelope-o {
-	background: #333333;
-	color: white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 20px;
-}
-
-#ucsd-img {
-	/*height: 200px;*/
-	/*width: 200px;*/
-	height: auto;
-	width: auto;
-	max-width: 17%;
-	margin: 0% 5%;
-}
-
-#doodle-img {
-	height: 285px; /* 260px was what it was at before that was sorta good, but made it seem a bit too compressed */
-}
-
-.school_and_major {
-	font-size: 1.7vw;
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
-}
-
-#coursework {
-	margin-left: 23px;
-	margin-bottom: 10px;
-	font-weight: bold;
-	font-size: 2.4vw;
-	font-style: italic;
-}
-
-.courses {
-	font-size: 1.3vw;
-}
-
-.container {
-	text-align: left;
-	width: 700px;
-	max-width: 70%;
-	width: auto;
-}
-
-.contact-section {
-	/*background: #39547f;*/
-	/*background: #576c8e;*/
-	background: #758caf;
-}
-
-.contact-header {
-	text-shadow: 1px 1px 3px #000000;
-	color: white;
-}
-
-#email-tag {
-	font-weight: bold;
-	font-size: 25px;
-}
-
-#email-link {
-	font-weight: bold;
-	color: white;
-	font-size: 25px;
-}
->>>>>>> f1a92a36b0928a0c4ab7b4d7d579d83e5847954e
